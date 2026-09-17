@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a focused improvement to ai-runtime.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or contributor problem should be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the smallest useful change and its public behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What workarounds or different designs did you consider?
+  - type: textarea
+    id: portability
+    attributes:
+      label: Provider portability impact
+      description: Does this affect provider adapters, portable state, tools, or public APIs?
