@@ -1,0 +1,54 @@
+[build-system]
+requires = ["uv_build>=0.11.32,<0.13"]
+build-backend = "uv_build"
+
+[project]
+name = "ai-runtime"
+version = "0.1.0a0"
+description = "An early-stage, model-agnostic runtime for portable AI agents."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+keywords = ["agents", "ai", "llm", "runtime"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+openai = ["openai>=3.7,<4"]
+
+[dependency-groups]
+dev = [
+  "pytest>=9.1,<10",
+  "ruff>=0.16.8,<0.17",
+]
+
+[project.urls]
+Documentation = "https://github.com/xxj-666/ai-runtime#readme"
+Issues = "https://github.com/xxj-666/ai-runtime/issues"
+Repository = "https://github.com/xxj-666/ai-runtime"
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "RUF", "SIM", "UP"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.uv]
+required-version = ">=0.11.0,<0.13"
