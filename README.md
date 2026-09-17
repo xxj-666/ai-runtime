@@ -9,8 +9,8 @@ The project explores a simple idea: models are replaceable compute backends,
 while an application's tools, state, memory, workflows, permissions, and
 operational context should live in a separate runtime layer.
 
-> **Status:** experimental pre-release targeting `v0.1.0-alpha`. Public APIs may
-> change. This project is not production-hardened.
+> **Status:** `v0.1.0-alpha` is an experimental release. Public APIs may change.
+> This project is not production-hardened.
 
 ## Why ai-runtime?
 

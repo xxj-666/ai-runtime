@@ -7,6 +7,8 @@ and this project intends to follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.0-alpha] - 2026-09-17
+
 ### Added
 
 - Provider-neutral request, response, tool, and state models.
@@ -15,4 +17,5 @@ and this project intends to follow [Semantic Versioning](https://semver.org/).
 - Optional OpenAI Responses API adapter.
 - Tests, runnable examples, project documentation, and CI configuration.
 
-No version has been released yet. `v0.1.0-alpha` remains the first planned tag.
+[Unreleased]: https://github.com/xxj-666/ai-runtime/compare/v0.1.0-alpha...HEAD
+[0.1.0-alpha]: https://github.com/xxj-666/ai-runtime/releases/tag/v0.1.0-alpha

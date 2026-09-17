@@ -3,7 +3,7 @@
 This roadmap is directional and may change as the project receives real-world
 feedback.
 
-## v0.1.0-alpha — current target
+## v0.1.0-alpha — released 2026-09-17
 
 - Provider-independent request and response models.
 - A bounded synchronous runtime loop.
@@ -12,7 +12,7 @@ feedback.
 - Explicit tool registration and execution.
 - In-memory runtime state.
 - Offline tests, examples, documentation, and CI.
-- First tagged alpha release after final validation.
+- First tagged alpha release.
 
 ## v0.2
 
